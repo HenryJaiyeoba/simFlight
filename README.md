@@ -1,4 +1,4 @@
-# simFlight: Aircraft Autopilot Control Systems Library
+# simFlight: Basic Aircraft Autopilot Control Systems Library
 
 An educational Python library for teaching undergraduate students the principles of aircraft autopilot control systems with a focus on PID controllers.
 
@@ -12,20 +12,14 @@ simFlight is designed to provide a beginner-friendly, scalable, and educational 
 - **Virtual Flight Simulator**: Simple kinematic/dynamic models for offline learning
 - **X-Plane Integration**: Real-time connection to X-Plane simulator
 - **Autopilot Subsystems**: Modular components for altitude, heading, and speed control
-- **Waypoint Navigation**: Navigate between geographical waypoints with altitude and speed constraints
-- **Autoland System**: Automatic approach and landing capabilities with glide slope and localizer tracking
+- **Waypoint Navigation**: Navigate between geographical waypoints with altitude and speed constraints (in the works)
+- **Autoland System**: Automatic approach and landing capabilities with glide slope and localizer tracking (in the works)
 - **Real-time GUI Dashboard**: Interactive dashboard for parameter tuning and flight visualization
 - **Visualization Tools**: Interactive plots for monitoring system performance
 - **Jupyter Notebooks**: Step-by-step tutorials explaining control theory and implementation
 - **Comprehensive Testing**: Unit and integration tests for all components
 
 ## Getting Started
-
-### Installation
-
-```bash
-pip install simflight
-```
 
 ### Quick Example
 
