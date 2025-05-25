@@ -1,0 +1,38 @@
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Local configuration
+.env
+config.local.py
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Generated output
+*.png
+*.html
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
