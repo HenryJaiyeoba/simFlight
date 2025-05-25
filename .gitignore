@@ -37,7 +37,4 @@ config.local.py
 .coverage
 htmlcov/
 
-*/autoland.py
-navigation/
-
 
