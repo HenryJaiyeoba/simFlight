@@ -1,5 +1,5 @@
 """
-Simulator modules for the simFlight library.
+Simulator modules for the easyflight library.
 """
 
 from .virtual_simulator import VirtualSimulator

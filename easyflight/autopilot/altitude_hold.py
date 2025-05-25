@@ -5,7 +5,7 @@ This module provides an altitude hold autopilot subsystem that uses a PID
 controller to maintain a target altitude.
 """
 
-from typing import Dict, Any, Optional
+from typing import Dict
 import numpy as np
 
 from .base import AutopilotSubsystem

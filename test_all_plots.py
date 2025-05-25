@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-Script to demonstrate all graph generation capabilities in the simFlight library.
+Script to demonstrate all graph generation capabilities in the easyflight library.
 """
 
 import numpy as np
 import matplotlib.pyplot as plt
 import plotly.io as pio
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
-from simflight.visualization import plot_simulation_results, plot_pid_performance, interactive_plot
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
+from easyflight.visualization import plot_simulation_results, plot_pid_performance, interactive_plot
 
 def run_simulation():
     """Run a simulation and return the history data."""
@@ -113,7 +113,7 @@ def run_simulation():
 
 
 def test_all_plot_types():
-    """Test all plotting functions in the simFlight library."""
+    """Test all plotting functions in the easyflight library."""
     # Run simulation
     history, setpoints, control_history, controller_history = run_simulation()
     

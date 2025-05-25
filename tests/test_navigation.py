@@ -6,10 +6,10 @@ import unittest
 import numpy as np
 from math import radians, degrees
 
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
-from simflight.navigation import Waypoint, FlightPlan, WaypointNavigation
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
+from easyflight.navigation import Waypoint, FlightPlan, WaypointNavigation
 
 
 class TestWaypointNavigation(unittest.TestCase):

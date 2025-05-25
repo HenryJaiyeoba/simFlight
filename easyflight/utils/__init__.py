@@ -1,5 +1,5 @@
 """
-Utility modules for the simFlight library.
+Utility modules for the easyflight library.
 """
 
 from .conversions import (

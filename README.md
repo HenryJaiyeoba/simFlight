@@ -2,7 +2,7 @@
 
 ## Overview
 
-simFlight is designed to provide a beginner-friendly, scalable, and educational platform for learning about aircraft control systems. It features both virtual simulation capabilities and integration with X-Plane through the X-Plane Connect plugin.
+easyflight is designed to provide a beginner-friendly, scalable, and educational platform for learning about aircraft control systems. It features both virtual simulation capabilities and integration with X-Plane through the X-Plane Connect plugin.
 
 ## Features
 
@@ -22,10 +22,10 @@ simFlight is designed to provide a beginner-friendly, scalable, and educational 
 ### Quick Example
 
 ```python
-from simflight.controllers import PIDController
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold
+from easyflight.controllers import PIDController
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold
 import matplotlib.pyplot as plt
 
 # Create a virtual simulator and aircraft
@@ -86,7 +86,7 @@ plt.show()
 
 ## Documentation
 
-For detailed documentation and examples, see the [documentation site](https://simflight.readthedocs.io).
+For detailed documentation and examples, see the [documentation site](https://easyflight.readthedocs.io).
 
 ### Tutorials
 
@@ -108,8 +108,8 @@ Several example scripts demonstrate key features:
 ## Project Structure
 
 ```
-simflight/
-├── simflight/           # Main package
+easyflight/
+├── easyflight/           # Main package
 │   ├── __init__.py
 │   ├── controllers/      # PID and other controllers
 │   ├── aircraft/         # Aircraft models

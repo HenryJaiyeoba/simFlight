@@ -5,7 +5,7 @@ This module provides a heading hold autopilot subsystem that uses a PID
 controller to maintain a target heading.
 """
 
-from typing import Dict, Any, Optional
+from typing import Dict
 import numpy as np
 
 from .base import AutopilotSubsystem
@@ -87,9 +87,8 @@ class HeadingHold(AutopilotSubsystem):
         aileron_command += self.controller.ki * self.controller.integral
         
         # Add derivative term (if not the first computation)
-        if hasattr(self, 'last_error'):
-            derivative = (error - self.last_error) / self.controller.dt
-            aileron_command += self.controller.kd * derivative
+        derivative = (error - self.last_error) / self.controller.dt
+        aileron_command += self.controller.kd * derivative
         self.last_error = error
         
         # Apply output limits

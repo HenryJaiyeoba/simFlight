@@ -12,11 +12,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import numpy as np
 import time
 import threading
-from typing import Dict, List, Tuple, Optional, Union, Callable
-
-from ..controllers import PIDController
-from ..autopilot import AltitudeHold, HeadingHold, SpeedHold, Autoland
-from ..navigation import WaypointNavigation
+from typing import Dict, Optional
 
 
 class AutopilotDashboard:
@@ -42,7 +38,7 @@ class AutopilotDashboard:
         aircraft,
         controllers: Optional[Dict] = None,
         update_interval: int = 100,
-        window_title: str = "simFlight Autopilot Dashboard"
+        window_title: str = "easyflight Autopilot Dashboard"
     ):
         """
         Initialize the autopilot dashboard.

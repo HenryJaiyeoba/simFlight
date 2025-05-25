@@ -1,7 +1,7 @@
 """
 Interactive Autopilot Dashboard Demo
 
-This script demonstrates the GUI dashboard capabilities of simFlight,
+This script demonstrates the GUI dashboard capabilities of easyflight,
 allowing real-time visualization and parameter adjustment.
 
 To run:
@@ -10,16 +10,16 @@ $ python demo_dashboard.py
 
 import numpy as np
 import time
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold, Autoland
-from simflight.navigation import Waypoint, FlightPlan, WaypointNavigation
-from simflight.visualization import AutopilotDashboard
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold, Autoland
+from easyflight.navigation import Waypoint, FlightPlan, WaypointNavigation
+from easyflight.visualization import AutopilotDashboard
 
 
 def main():
     """Run the dashboard demonstration."""
-    print("Starting simFlight Dashboard Demo...")
+    print("Starting easyflight Dashboard Demo...")
     print("This demo shows how to use the interactive dashboard for adjusting autopilot parameters.")
     
     # Create simulator with aircraft at 5000 feet

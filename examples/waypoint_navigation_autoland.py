@@ -2,7 +2,7 @@
 Waypoint Navigation and Autoland Example
 
 This example demonstrates how to use the waypoint navigation and autoland
-features of simFlight to create a complete flight path with an automatic landing.
+features of easyflight to create a complete flight path with an automatic landing.
 """
 
 import time
@@ -10,11 +10,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import radians, degrees, sin, cos
 
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold, Autoland
-from simflight.navigation import Waypoint, FlightPlan, WaypointNavigation
-from simflight.visualization import plot_simulation_results, AutopilotDashboard
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold, Autoland
+from easyflight.navigation import Waypoint, FlightPlan, WaypointNavigation
+from easyflight.visualization import plot_simulation_results, AutopilotDashboard
 
 
 def main():

@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Script to test the interactive plotting functionality in the simFlight library.
+Script to test the interactive plotting functionality in the easyflight library.
 """
 
 import numpy as np
 import plotly.io as pio
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
-from simflight.visualization import interactive_plot
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
+from easyflight.visualization import interactive_plot
 
 def test_interactive_plot():
     """Test the interactive_plot function with a simple simulation."""

@@ -1,5 +1,5 @@
 """
-Setup script for the simFlight package.
+Setup script for the easyflight package.
 """
 
 from setuptools import setup, find_packages
@@ -8,14 +8,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="simflight",
+    name="easyflight",
     version="0.1.0",
-    author="simFlight Team",
+    author="easyflight Team",
     author_email="henryjaiyeoba@gmail.com",
     description="An educational Python library for aircraft autopilot control systems",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/henryjaiyeoba/simflight",
+    url="https://github.com/henryjaiyeoba/easyflight",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

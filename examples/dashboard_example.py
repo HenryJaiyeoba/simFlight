@@ -9,10 +9,10 @@ import time
 import numpy as np
 import matplotlib.pyplot as plt
 
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
-from simflight.visualization import AutopilotDashboard
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
+from easyflight.visualization import AutopilotDashboard
 
 
 def main():

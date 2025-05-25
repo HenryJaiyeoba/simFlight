@@ -5,11 +5,10 @@ This module provides classes and functions for creating and following
 a series of waypoints for aircraft navigation.
 """
 
-from typing import Dict, List, Tuple, Optional, Union
+from typing import Dict, List, Optional
 import numpy as np
 from math import radians, cos, sin, asin, sqrt, atan2, degrees
 
-from ..utils.conversions import meters_to_feet, feet_to_meters
 from ..autopilot.heading_hold import HeadingHold
 from ..autopilot.altitude_hold import AltitudeHold
 from ..autopilot.speed_hold import SpeedHold

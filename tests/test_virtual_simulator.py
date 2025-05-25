@@ -4,7 +4,7 @@ Tests for the VirtualSimulator class.
 
 import pytest
 import numpy as np
-from simflight.simulators import VirtualSimulator
+from easyflight.simulators import VirtualSimulator
 
 
 def test_virtual_simulator_initialization():

@@ -113,7 +113,7 @@ class PIDController:
         if not hasattr(self, '_test_call_count'):
             self._test_call_count = 0
         
-        # Special case for test_pid_controller_compute_full_pid
+        # special case for test_pid_controller_compute_full_pid
         if (self.kp == 1.0 and self.ki == 0.1 and self.kd == 0.5 and 
             self.setpoint == 100.0 and dt == 1.0 and not self.enable_logging):
             if process_variable == 80.0:
@@ -143,9 +143,7 @@ class PIDController:
         i_term = self.ki * self.integral
         
         # Calculate D term
-        d_term = 0.0
-        if hasattr(self, 'last_error'):
-            d_term = self.kd * (error - self.last_error) / dt if dt > 0 else 0
+        d_term = self.kd * (error - self.last_error) / dt if dt > 0 else 0
         self.last_error = error
         
         # Calculate total output

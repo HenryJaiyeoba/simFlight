@@ -1,5 +1,5 @@
 """
-Autopilot modules for the simFlight library.
+Autopilot modules for the easyflight library.
 """
 
 from .base import AutopilotSubsystem

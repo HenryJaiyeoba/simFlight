@@ -1,5 +1,5 @@
 """
-Visualization modules for the simFlight library.
+Visualization modules for the easyflight library.
 """
 
 from .plotting import (

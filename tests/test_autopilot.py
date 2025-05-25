@@ -4,9 +4,9 @@ Tests for the autopilot subsystems.
 
 import pytest
 import numpy as np
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
 
 
 def test_altitude_hold_initialization():

@@ -1,5 +1,5 @@
 """
-Controller modules for the simFlight library.
+Controller modules for the easyflight library.
 """
 
 from .pid_controller import PIDController

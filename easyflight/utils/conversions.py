@@ -1,5 +1,5 @@
 """
-Utility functions for the simFlight library.
+Utility functions for the easyflight library.
 """
 
 import numpy as np

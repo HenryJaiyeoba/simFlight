@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-Script to test the plotting functionality in the simFlight library.
+Script to test the plotting functionality in the easyflight library.
 """
 
 import numpy as np
 import matplotlib.pyplot as plt
-from simflight.simulators import VirtualSimulator
-from simflight.aircraft import Aircraft
-from simflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
-from simflight.visualization import plot_simulation_results, plot_pid_performance, interactive_plot
+from easyflight.simulators import VirtualSimulator
+from easyflight.aircraft import Aircraft
+from easyflight.autopilot import AltitudeHold, HeadingHold, SpeedHold
+from easyflight.visualization import plot_simulation_results, plot_pid_performance, interactive_plot
 
 def test_plot_simulation_results():
     """Test the plot_simulation_results function with a simple simulation."""

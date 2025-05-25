@@ -4,7 +4,7 @@ Tests for the PIDController class.
 
 import pytest
 import numpy as np
-from simflight.controllers import PIDController
+from easyflight.controllers import PIDController
 
 
 def test_pid_controller_initialization():

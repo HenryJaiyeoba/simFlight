@@ -1,5 +1,5 @@
 """
-Aircraft modules for the simFlight library.
+Aircraft modules for the easyflight library.
 """
 
 from .aircraft import Aircraft
