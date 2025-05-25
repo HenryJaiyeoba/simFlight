@@ -1,7 +1,5 @@
 # simFlight: Basic Aircraft Autopilot Control Systems Library
 
-An educational Python library for teaching undergraduate students the principles of aircraft autopilot control systems with a focus on PID controllers.
-
 ## Overview
 
 simFlight is designed to provide a beginner-friendly, scalable, and educational platform for learning about aircraft control systems. It features both virtual simulation capabilities and integration with X-Plane through the X-Plane Connect plugin.
