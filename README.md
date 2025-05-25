@@ -1,4 +1,4 @@
-# simFlight: Basic Aircraft Autopilot Control Systems Library
+# Basic Aircraft Autopilot Control Systems Library
 
 ## Overview
 
