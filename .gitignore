@@ -36,3 +36,8 @@ config.local.py
 .pytest_cache/
 .coverage
 htmlcov/
+
+*/autoland.py
+navigation/
+
+
