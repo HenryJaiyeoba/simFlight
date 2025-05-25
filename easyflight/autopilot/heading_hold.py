@@ -87,8 +87,9 @@ class HeadingHold(AutopilotSubsystem):
         aileron_command += self.controller.ki * self.controller.integral
         
         # Add derivative term (if not the first computation)
-        derivative = (error - self.last_error) / self.controller.dt
-        aileron_command += self.controller.kd * derivative
+        if hasattr(self, 'last_error'):
+            derivative = (error - self.last_error) / self.controller.dt
+            aileron_command += self.controller.kd * derivative
         self.last_error = error
         
         # Apply output limits

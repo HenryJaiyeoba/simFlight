@@ -551,6 +551,7 @@ class AutopilotDashboard:
             if 'attitude' in self.figures:
                 ax = self.figures['attitude']['ax']
                 ax.clear()
+                # print(len(plot_times), len(aircraft_history['pitch'][start_idx:]))
                 ax.plot(plot_times, aircraft_history['pitch'][start_idx:], 'r-', label='Pitch')
                 ax.plot(plot_times, aircraft_history['roll'][start_idx:], 'g-', label='Roll')
                 ax.plot(plot_times, aircraft_history['heading'][start_idx:], 'b-', label='Heading')

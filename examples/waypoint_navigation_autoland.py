@@ -19,9 +19,9 @@ from easyflight.visualization import plot_simulation_results, AutopilotDashboard
 
 def main():
     """Run the waypoint navigation and autoland example."""
-    # Create the simulator with initial altitude of 3000 feet
+    # Create the simulator 
     initial_state = {
-        'altitude': 3000.0,
+        'altitude': 1000.0,
         'airspeed': 120.0,
         'heading': 0.0,
         'pitch': 0.0,
@@ -52,7 +52,7 @@ def main():
     flight_plan.add_waypoint(Waypoint(
         latitude=37.505,
         longitude=-122.300,
-        altitude=3000.0,
+        altitude=1000.0,
         speed=120.0,
         name="START"
     ))
@@ -169,8 +169,9 @@ def main():
     dashboard.start()
     
     # After the dashboard is closed, plot the results
-    plot_simulation_results(simulator.history)
-
+    # print(simulator.history)
+    fig = plot_simulation_results(time=simulator.history["time"], state_history=simulator.history)
+    plt.show()
 
 if __name__ == "__main__":
     main()
