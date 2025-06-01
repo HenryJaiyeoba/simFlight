@@ -36,5 +36,6 @@ config.local.py
 .pytest_cache/
 .coverage
 htmlcov/
+my_tests/
 
 
